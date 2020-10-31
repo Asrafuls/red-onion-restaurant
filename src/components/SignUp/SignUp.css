@@ -1,0 +1,11 @@
+.signUpAndSignInFull{
+    background: url(./../../bg/bannerbackground.png);
+    background-position: center;
+    background-size: cover;
+}
+.passwordNotMatchedMessage{
+    display: none;
+}
+.text-danger{
+    margin-left: 10px;
+}

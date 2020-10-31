@@ -1,0 +1,88 @@
+#checkOutForm input[type='text'] {
+    border: none;
+}
+
+#checkOutForm input[type='text']:focus {
+    border: 1px solid #80BDFF;
+}
+
+#checkOutForm textarea {
+    border: none;
+}
+
+#checkOutForm textarea:focus {
+    border: 1px solid #80BDFF;
+}
+
+.cartRightSection h6 {
+    margin-bottom: 20px;
+}
+
+.cartProductList {
+    margin-top: 20px;
+    margin-top: 20px;
+    height: 295px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.cartProductList::-webkit-scrollbar {
+    width: 4px;
+}
+
+.cartProductList::-webkit-scrollbar:hover {
+    width: 6px !important;
+}
+
+.cartProductList::-webkit-scrollbar-track {
+    background: #F5F5F5;
+}
+
+.cartProductList::-webkit-scrollbar-thumb {
+    background: #888;
+    cursor: pointer;
+}
+
+.cartProductList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.cartProduct {
+    padding: 9px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#removePdInCart{
+    line-height: 30px;
+    float: right;
+    margin-top: -40px;
+    width: 25px;
+    height: 25px;
+}
+
+#removePdInCart svg{
+    margin-top: -23px;
+    margin-left: -8px;
+}
+
+.cartProductTitle {
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+.cartProductQuantity {
+    display: flex;
+    height: 33px;
+    line-height: 30px;
+    float: right;
+    margin-top: -40px;
+}
+
+.cartProductQuantity button {
+    border: none;
+}
+
+#checkOutForm input{
+    margin-top: 10px;
+}

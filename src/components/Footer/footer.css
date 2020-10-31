@@ -1,0 +1,30 @@
+.footerMain{
+    background: #191919;
+    color: #f0f0f0;
+    padding-top: 50px;
+}
+.footerMain a{
+    color: #f0f0f0;
+}
+.footerMain a:hover{
+    color: #b6b3b3;
+}
+.footerTop{
+    padding-bottom: 50px;
+}
+.footerTop a{
+    line-height: 40px;
+}
+footer{
+    padding: 20px 0;
+}
+.footerMainText{
+    width: 55%;
+}
+.footerMainLink{
+    width: 15%;
+    margin-top: 18px;
+}
+.footerMainLink a{
+    margin: 0 auto;
+}

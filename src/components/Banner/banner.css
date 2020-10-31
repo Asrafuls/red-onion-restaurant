@@ -1,0 +1,48 @@
+.bannerMain{
+    height: 510px;
+    background: url('./../../bg/bannerbackground.png');
+    background-position: center;
+    background-size: cover;
+}
+.bannerContent h2{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 145px;
+}
+.bannerSearch{
+    width: 480px;
+    margin: 0 auto;
+}
+.bannerSearch input[type='text']::placeholder{
+    color: rgb(146, 143, 143);
+    opacity: 1;
+}
+.bannerSearch input[type='text']:-ms-input-placeholder {
+    color: rgb(146, 143, 143);
+}
+.bannerSearch input[type='text']::-ms-input-placeholder {
+    color: rgb(146, 143, 143);
+}
+.bannerSearch input[type='text']{
+    width: 94%;
+    font-size: 15px;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 80px;
+    padding-right: 68px;
+}
+.bannerSearch input[type='submit']{
+    font-size: 16px;
+    border: 0;
+    padding: 15px 23px;
+    border-radius: 80px;
+    background: #F91944;
+    margin-left: -65px;
+    color: #fff;
+    cursor: pointer;
+}
+.bannerSearch input[type='submit']:hover{
+    background-color: #f75a77 !important;
+}

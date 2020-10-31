@@ -1,0 +1,33 @@
+.productDetailLeft h1{
+    font-family: 'Open Sans';
+}
+.priceAndQuantity h2{
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+.quantity{
+    width: 125px;
+    border: 1px solid #aaa;
+    padding: 5px 3px;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.addToCartBtn{
+    background: #F91944;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 25px;
+    outline: none !important;
+}
+
+.addToCartBtn svg{
+    margin-right: 20px;
+}
+
+.addToCartBtn:hover{
+    background: #f84444;
+}
